@@ -20,7 +20,7 @@
   <meta property="og:url" content="https://arohostel.com/">
   <meta property="og:title" content="ARO Now Open · Berlin-Schöneberg">
   <meta property="og:description" content="A bed, two meals, one price. Private bathroom in every room. Breakfast and dinner included daily. From €30/night. Short stays and long stays 1–12 months in Berlin-Schöneberg.">
-  <meta property="og:image" content="https://arohostel.com/assets/img/_stg0403.jpg">
+  <meta property="og:image" content="https://arohostel-app.vercel.app/assets/img/aro_hero_lobby.jpg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="800">
   <meta property="og:image:alt" content="ARO Hostel &amp; Residence courtyard in Berlin-Schöneberg">
@@ -30,7 +30,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="ARO Now Open · Berlin-Schöneberg">
   <meta name="twitter:description" content="A bed, two meals, one price. Private bathroom in every room. Breakfast and dinner included daily. From €30/night in Berlin-Schöneberg.">
-  <meta name="twitter:image" content="https://arohostel.com/assets/img/_stg0403.jpg">
+  <meta name="twitter:image" content="https://arohostel-app.vercel.app/assets/img/aro_hero_lobby.jpg">
   <link rel="icon" href="/assets/img/favicon.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -47,7 +47,7 @@
       if (location.pathname !== '/') location.replace('/');
     });
   </script>
-  <link rel="stylesheet" href="/assets/css/styles.css?v=27">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=28">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -222,10 +222,10 @@
 <!-- ================= HERO ================= -->
 <section class="hero" id="home" data-route="/">
   <div class="hero-slides" aria-hidden="true">
-    <div class="hero-slide is-active" style="background-image:url(/assets/img/_stg0403.jpg)"></div>
+    <div class="hero-slide is-active" style="background-image:url(/assets/img/aro_hero_lobby.jpg)"></div>
+    <div class="hero-slide" style="background-image:url(/assets/img/aro_double_std.jpg)"></div>
     <div class="hero-slide" style="background-image:url(/assets/img/0a3a8360.jpg)"></div>
     <div class="hero-slide" style="background-image:url(/assets/img/_stg0390.jpg)"></div>
-    <div class="hero-slide" style="background-image:url(/assets/img/0a3a8318.jpg)"></div>
   </div>
   <div class="hero-shade"></div>
   <div class="container hero-inner">
@@ -302,8 +302,8 @@
   <div class="container split">
     <div class="split-media reveal">
       <div class="stack">
-        <img src="/assets/img/0a3a8398.jpg" alt="Cosy lounge corner with sofas and plants" loading="lazy" class="stack-a">
-        <img src="/assets/img/_stg0395.jpg" alt="Bright breakfast room with wooden tables" loading="lazy" class="stack-b">
+        <img src="/assets/img/aro_hero_lobby.jpg" alt="ARO Hostel reception and lounge" loading="lazy" class="stack-a">
+        <img src="/assets/img/aro_double_std.jpg" alt="ARO double room with Berlin art prints" loading="lazy" class="stack-b">
         <div class="badge-float"><svg><use href="#i-sun"/></svg><div><b data-i18n="w.badge1">Sunny courtyard</b><span data-i18n="w.badge2">&amp; terrace</span></div></div>
       </div>
     </div>
@@ -334,7 +334,7 @@
     <div class="rooms-grid">
       <article class="room-card reveal" data-gallery="single">
         <button class="room-media" type="button" aria-label="View photos of the Single Room">
-          <img src="/assets/img/0a3a8349.jpg" alt="Single room with bed and artwork" loading="lazy">
+          <img src="/assets/img/aro_dorm4_room.jpg" alt="Single room with bed and window" loading="lazy">
           <span class="room-tag tag-sky" data-i18n="r.t1">Remote-work ready</span>
           <span class="room-photos"><svg><use href="#i-expand"/></svg><span>4</span></span>
         </button>
@@ -352,7 +352,7 @@
 
       <article class="room-card reveal" data-gallery="double">
         <button class="room-media" type="button" aria-label="View photos of the Double Room">
-          <img src="/assets/img/0a3a8318.jpg" alt="Double room with large bed and window" loading="lazy">
+          <img src="/assets/img/aro_double_std.jpg" alt="ARO double room with desk and chairs" loading="lazy">
           <span class="room-tag tag-berry" data-i18n="r.t2">Couples' favourite</span>
           <span class="room-photos"><svg><use href="#i-expand"/></svg><span>5</span></span>
         </button>
@@ -370,7 +370,7 @@
 
       <article class="room-card reveal" data-gallery="family">
         <button class="room-media" type="button" aria-label="View photos of the Family Room">
-          <img src="/assets/img/_stg0357.jpg" alt="Family room with double bed and bunk bed" loading="lazy">
+          <img src="/assets/img/aro_dorm6_chairs.jpg" alt="ARO triple room with workspace and chairs" loading="lazy">
           <span class="room-tag tag-lime" data-i18n="r.t3">Great for families</span>
           <span class="room-photos"><svg><use href="#i-expand"/></svg><span>5</span></span>
         </button>
@@ -388,7 +388,7 @@
 
       <article class="room-card reveal" data-gallery="dorm">
         <button class="room-media" type="button" aria-label="View photos of the Multi-bed Room">
-          <img src="/assets/img/_stg0347.jpg" alt="Multi-bed room with bunk beds and lockers" loading="lazy">
+          <img src="/assets/img/aro_dorm6_room.jpg" alt="ARO 6-bed dorm room with bunk beds" loading="lazy">
           <span class="room-tag tag-sun" data-i18n="r.t4">Best for budgets &amp; groups</span>
           <span class="room-photos"><svg><use href="#i-expand"/></svg><span>6</span></span>
         </button>
@@ -755,6 +755,6 @@
 </div>
 
 <script src="/assets/js/i18n.js"></script>
-<script src="/assets/js/main.js?v=27"></script>
+<script src="/assets/js/main.js?v=28"></script>
 </body>
 </html>
