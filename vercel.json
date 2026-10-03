@@ -2,10 +2,16 @@
   "outputDirectory": "public",
   "cleanUrls": true,
   "rewrites": [
-    {
-      "source": "/(rooms|stay|amenities|gallery|neighbourhood|location|groups|faq|book|contact)",
-      "destination": "/index.html"
-    }
+    { "source": "/rooms",          "destination": "/index.html" },
+    { "source": "/stay",           "destination": "/index.html" },
+    { "source": "/amenities",      "destination": "/index.html" },
+    { "source": "/gallery",        "destination": "/index.html" },
+    { "source": "/neighbourhood",  "destination": "/index.html" },
+    { "source": "/location",       "destination": "/index.html" },
+    { "source": "/groups",         "destination": "/index.html" },
+    { "source": "/faq",            "destination": "/index.html" },
+    { "source": "/book",           "destination": "/index.html" },
+    { "source": "/contact",        "destination": "/index.html" }
   ],
   "headers": [
     {
