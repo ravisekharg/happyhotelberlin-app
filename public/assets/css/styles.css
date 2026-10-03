@@ -1,5 +1,5 @@
 /* ==========================================================
-   Happy Hotel Berlin – site styles
+   ARO Hostel & Residence – site styles
    Adapted from the Shree Living design system.
    Mobile-first · no external dependencies (except Google Fonts)
    ========================================================== */
@@ -184,9 +184,17 @@ ul, ol { margin: 0; padding: 0; }
 }
 .site-header.scrolled { box-shadow: var(--shadow); border-color: var(--line); }
 .header-inner { display: flex; align-items: center; gap: 1.5rem; min-height: var(--header-h); }
-.brand { flex: none; }
+.brand { flex: none; text-decoration: none; }
 .brand img { height: 48px; width: auto; }
 @media (min-width: 900px) { .brand img { height: 56px; } }
+.logo-wordmark { display: flex; flex-direction: column; line-height: 1; gap: .1em; text-decoration: none; }
+.logo-name { font-family: var(--font-head); font-size: 1.75rem; font-weight: 900; letter-spacing: .06em; line-height: 1; color: #fff; transition: color .2s; }
+.logo-sub { font-size: .52rem; font-weight: 600; letter-spacing: .16em; text-transform: uppercase; color: rgba(255,255,255,.65); transition: color .2s; }
+.site-header.scrolled .logo-name { color: var(--ink); }
+.site-header.scrolled .logo-sub { color: var(--muted); }
+.logo-wordmark-dark .logo-name { color: var(--ink); }
+.logo-wordmark-dark .logo-sub { color: var(--muted); }
+.footer-logo-text { margin-bottom: .75rem; }
 .nav { display: none; }
 @media (min-width: 960px) {
   .nav { display: flex; gap: 1px; margin: 0 auto; }

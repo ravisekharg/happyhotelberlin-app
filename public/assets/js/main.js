@@ -1,4 +1,4 @@
-/* Happy Hotel Berlin – main.js
+/* ARO Hostel & Residence – main.js
    Scroll-based routing, hero slideshow, gallery masonry + lightbox,
    tab panels, accordion routes, form validation, counters, language switch.
 */
@@ -588,7 +588,7 @@
         // Fall back to mailto
         const sub = 'Booking request from ' + (data.name || 'guest');
         const body = Object.entries(data).map(([k, v]) => k + ': ' + v).join('\n');
-        window.location.href = 'mailto:info@happyhotelberlin.de?subject=' + encodeURIComponent(sub) + '&body=' + encodeURIComponent(body);
+        window.location.href = 'mailto:Booking@arohostel.com?subject=' + encodeURIComponent(sub) + '&body=' + encodeURIComponent(body);
       } finally {
         btn.disabled = false;
         btn.innerHTML = orig;
