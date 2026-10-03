@@ -16,13 +16,13 @@ export default async function handler(req, res) {
   }
 
   if (fields?.website) {
-    return res.status(200).json({ ok: true, ref: 'HHB-0000' });
+    return res.status(200).json({ ok: true, ref: 'ARO-0000' });
   }
 
   if (!fields?.email || !fields?.name) {
     return res.status(422).json({ ok: false, error: 'Name and email are required' });
   }
 
-  const ref = 'HHB-' + Math.random().toString(16).slice(2, 8).toUpperCase();
+  const ref = 'ARO-' + Math.random().toString(16).slice(2, 8).toUpperCase();
   return res.status(200).json({ ok: true, ref });
 }

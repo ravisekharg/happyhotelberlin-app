@@ -47,7 +47,7 @@
       if (location.pathname !== '/') location.replace('/');
     });
   </script>
-  <link rel="stylesheet" href="/assets/css/styles.css?v=26">
+  <link rel="stylesheet" href="/assets/css/styles.css?v=27">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -260,28 +260,39 @@
   <div class="hero-dots" id="heroDots" role="tablist" aria-label="Hero images"></div>
 </section>
 
-<!-- ================= HIGHLIGHTS STRIP ================= -->
-<section class="strip" aria-label="Highlights">
-  <div class="container strip-grid">
-    <div class="stat reveal">
-      <span class="stat-icon ci-berry"><svg><use href="#i-bath"/></svg></span>
-      <b class="c-berry">100%</b>
-      <span data-i18n="st.bath">of rooms with a private bathroom</span>
+<!-- ================= FACTS CARDS ================= -->
+<section class="facts-strip" aria-label="Key facts">
+  <div class="container facts-grid">
+    <div class="fact-card reveal">
+      <div class="fact-eyebrow"><b>01</b> Facts</div>
+      <div class="fact-row">
+        <span class="fact-row-key">Every room</span>
+        <span class="fact-row-val">with its own bathroom</span>
+      </div>
+      <div class="fact-row">
+        <span class="fact-row-key">Breakfast &amp; dinner</span>
+        <span class="fact-row-val">included every day</span>
+      </div>
     </div>
-    <div class="stat reveal">
-      <span class="stat-icon ci-sky"><svg><use href="#i-coffee"/></svg></span>
-      <b class="c-sky">2</b>
-      <span data-i18n="st.meals">meals included every day</span>
+    <div class="fact-card reveal">
+      <div class="fact-eyebrow"><b>02</b> Just passing through?</div>
+      <div style="margin: 1.5rem 0 0;">
+        <span class="fact-price">from €30</span><span class="fact-price-unit">per night</span>
+      </div>
+      <p class="fact-price-note">Low season rate. Breakfast and dinner included.</p>
+      <a href="/book" data-go="/book" class="btn btn-outline btn-sm" data-i18n="cta.book">Ask for a room</a>
     </div>
-    <div class="stat reveal">
-      <span class="stat-icon ci-lime"><svg><use href="#i-bag"/></svg></span>
-      <b class="c-lime">from €30</b>
-      <span data-i18n="st.price">per night, meals included</span>
-    </div>
-    <div class="stat reveal">
-      <span class="stat-icon ci-sun"><svg><use href="#i-train"/></svg></span>
-      <b class="c-sun"><span class="count" data-to="3">0</span> min</b>
-      <span data-i18n="st.ubahn">walk to U7 Eisenacher Straße</span>
+    <div class="fact-card reveal">
+      <div class="fact-eyebrow"><b>03</b> Two ways to stay</div>
+      <div style="margin-top: 1.25rem;">
+        <div class="fact-stay-title">ARO Stay</div>
+        <div class="fact-stay-sub">By the night.</div>
+        <div class="fact-stay-desc">For travellers and for your first nights in Berlin.</div>
+        <hr class="fact-stay-div">
+        <div class="fact-stay-title">ARO Residence</div>
+        <div class="fact-stay-sub">1 to 12 months.</div>
+        <div class="fact-stay-desc">Furnished and ready to move in, for everything from a short internship to a full academic year.</div>
+      </div>
     </div>
   </div>
 </section>
@@ -744,6 +755,6 @@
 </div>
 
 <script src="/assets/js/i18n.js"></script>
-<script src="/assets/js/main.js?v=26"></script>
+<script src="/assets/js/main.js?v=27"></script>
 </body>
 </html>

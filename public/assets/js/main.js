@@ -354,6 +354,15 @@
     { src: '/assets/img/_stg0351.jpg',   cat: 'rooms',    cap: 'Single bed room' },
     { src: '/assets/img/_stg0367.jpg',   cat: 'common',   cap: 'Bar / refrigerator' },
     { src: '/assets/img/_stg0400.jpg',   cat: 'common',   cap: 'Reception & lounge' },
+    { src: '/assets/img/aro_dorm4_bath.jpg',  cat: 'bath',     cap: 'Private en-suite bathroom' },
+    { src: '/assets/img/aro_dorm4_room.jpg',  cat: 'rooms',    cap: '4-bed dorm room' },
+    { src: '/assets/img/aro_dorm6_bath.jpg',  cat: 'bath',     cap: 'En-suite bathroom' },
+    { src: '/assets/img/aro_dorm6_room.jpg',  cat: 'rooms',    cap: '6-bed dorm with bunk beds' },
+    { src: '/assets/img/aro_dorm6_chairs.jpg',cat: 'rooms',    cap: 'Dorm room with workspace' },
+    { src: '/assets/img/aro_double_std.jpg',  cat: 'rooms',    cap: 'Double room with desk and chairs' },
+    { src: '/assets/img/aro_double_02.jpg',   cat: 'rooms',    cap: 'Double standard room' },
+    { src: '/assets/img/aro_double_04.jpg',   cat: 'rooms',    cap: 'Double room, natural light' },
+    { src: '/assets/img/aro_hero_lobby.jpg',  cat: 'common',   cap: 'ARO reception and lobby' },
   ];
 
   const BATCH = 100;
